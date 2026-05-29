@@ -21,7 +21,7 @@ def convert_img(input_dir: Path, output_dir: Path):
             logging.info(f"{input_dir.name} to {png_file.name} - ok")
 
         except Exception as e:
-            logging.error(f"✘ Failed: {input_dir} ({e})")
+            logging.error(f"Failed: {input_dir} ({e})")
 
 
 def main():
